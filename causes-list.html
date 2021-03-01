@@ -28,7 +28,7 @@
     <!-- Main Header-->
     <header class="main-header header-style-two">
         <!--Header Top-->
-        <div class="header-top">
+       <!-- <div class="header-top">
             <div class="auto-container">
                 <div class="inner-container clearfix">
                     <div class="top-left pull-left">
@@ -43,10 +43,10 @@
                             <a href="#"><span class="fa fa-sign-in"></span>Donor Login</a>
                             <a href="#">Non-Profit Login</a>
                         </div>-->
-                    </div>
+                   <!-- </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- End Header Top -->
 
         <!-- Header Lower -->
@@ -55,7 +55,7 @@
                <div class="main-box clearfix">
                     <!--Logo Box-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
+                        <div class="logo"><a href="index.html"><img src="images/logo2.png" alt=""></a></div>
                     </div>
 
                     <!--Nav Outer-->
@@ -87,7 +87,7 @@
                                    </li>
                                     <li><a href="about.html">About us</a></li>
                                 <li><a href="services.html">Services</a></li>
-								<li><a href="causes-list.html">Causes</a></li>
+								<li class="current"><a href="causes-list.html">Causes</a></li>
                                <!-- <li class="current dropdown"><a href="#">Causes</a>
                                         <ul>
                                             <li><a href="causes-grid.html">Causes Grid View</a></li>
@@ -182,7 +182,7 @@
                                 </li>-->
                                 <li><a href="about.html">About us</a></li>
                                 <li><a href="services.html">Services</a></li>
-							    <li><a href="causes-list.html">Causes</a></li>
+							    <li class="current"><a href="causes-list.html">Causes</a></li>
                                 <!--<li class="current dropdown"><a href="#">Causes</a>
                                     <ul>
                                         <li><a href="causes-grid.html">Causes Grid View</a></li>
@@ -217,7 +217,7 @@
     <!--End Main Header -->
 
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/15.jpg);">
+    <section class="page-title" style="background-image:url(images/background/causes-header.png);">
         <div class="auto-container">
             <h1>Causes</h1>
             <ul class="bread-crumb clearfix">
@@ -237,7 +237,7 @@
                     <div class="cause-block-two col-md-6 col-sm-6 col-xs-12">
                         <div class="inner-box clearfix">
                             <div class="image-box">
-                                    <figure><img src="images/resource/cause-list-1.jpg" alt=""></figure>
+                                    <figure><img src="images/resource/humanitarian-efforts.png" alt=""></figure>
                                     <!--<div class="overlay-box"><a href="causes-single.html" class="link">Donate Now <i class="fa fa-angle-right"></i></a></div>-->
                                 </div>
                             <div class="lower-content">
@@ -260,7 +260,7 @@
                     <div class="cause-block-two col-md-6 col-sm-6 col-xs-12">
                         <div class="inner-box clearfix">
                             <div class="image-box">
-                                    <figure><img src="images/resource/cause-list-2.jpg" alt=""></figure>
+                                    <figure><img src="images/resource/lets-build-bridges.png" alt=""></figure>
                                     <!--<div class="overlay-box"><a href="causes-single.html" class="link">Donate Now <i class="fa fa-angle-right"></i></a></div>-->
                                 </div>
                             <div class="lower-content">
@@ -283,7 +283,7 @@
                     <div class="cause-block-two col-md-6 col-sm-6 col-xs-12">
                         <div class="inner-box clearfix">
                             <div class="image-box">
-                                    <figure><img src="images/resource/cause-list-3.jpg" alt=""></figure>
+                                    <figure><img src="images/resource/helping-school.png" alt=""></figure>
                                     <!--<div class="overlay-box"><a href="causes-single.html" class="link">Donate Now <i class="fa fa-angle-right"></i></a></div>-->
                                 </div>
                             <div class="lower-content">
@@ -306,7 +306,7 @@
                     <div class="cause-block-two col-md-6 col-sm-6 col-xs-12">
                         <div class="inner-box clearfix">
                             <div class="image-box">
-                                    <figure><img src="images/resource/cause-list-4.jpg" alt=""></figure>
+                                    <figure><img src="images/resource/school-for-girls.png" alt=""></figure>
                                     <!--<div class="overlay-box"><a href="causes-single.html" class="link">Donate Now <i class="fa fa-angle-right"></i></a></div>-->
                                 </div>
                             <div class="lower-content">
@@ -432,38 +432,55 @@
     </section>
     <!-- End Causes Section -->
 
-    <!-- Subscribe section -->
+ <!-- Subscribe section -->
     <section class="subscribe-section">
-        <div class="auto-container">
-            <div class="inner-container">
-                <div class="row clearfix">
-                   <div class="form-column col-md-6 col-sm-12 col-xs-12">
-					    <div class="subscribe-form">
-                            <div class="form-group">
-                            <!--<div class="title">-->
-                                <!--<h2>Donation Hotline :  03 2689254 - 03 2685987</h2>-->
-                                    <input type="text" name="username" id="input-name" placeholder="Enter Your name" required> 
-                            </div>
-                         </div>
-					</div>
-                    <div class="form-column col-md-6 col-sm-12 col-xs-12">
-                        <div class="subscribe-form">
-                            <form method="post" action="contact.html">
-                                <div class="form-group">
-                                    <input type="email" name="email" value="" placeholder="Enter Your email" required="">
-                                    <button type="submit" class="theme-btn btn-style-three">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+        <div class="auto-container">	
+            <div class="inner-container">				
+                <div class="row clearfix">				
+					<form id="about" name="about">				
+					    <div class="row">
+						  <!-- <div class="col-sm-5">-->
+						   <div class="form-column col-md-5 col-sm-5 col-xs-5">
+							<!--<div class="form-column col-md-6 col-sm-12 col-xs-12">-->
+								<div class="subscribe-form">
+									<div class="form-group">
+									    <!--<div class="title">-->
+										<!--<h2>Donation Hotline :  03 2689254 - 03 2685987</h2>-->    															
+										<input id="input-name"  type="text" name="name" placeholder="Enter Your Name " required />																		
+									</div>
+								 </div>
+							</div>						
+						   <div class="form-column col-md-5 col-sm-5 col-xs-5">
+								<div class="subscribe-form">
+								   <!-- <form method="post" action="contact.html">-->
+									<div class="form-group">
+											<!--<input type="email" name="email" value="" placeholder="Enter Your email" required="">
+											<button type="submit" class="theme-btn btn-style-three">Subscribe</button>-->											
+										<input id="input-email"  type="email" name="email" placeholder="Enter Your Email " required />	
+									</div>	
+								   <!-- </form>-->
+								</div>
+							</div>							
+						    <div class="form-column col-md-2 col-sm-2 col-xs-2">
+								<div class="subscribe-form">								  
+									<div class="form-group">										
+											<!--<div onClick="emailer()" class="theme-btn btn-style-three"> SUBSCRIBE </div>-->
+										<button type="button" class="theme-btn btn-style-three" onclick="emailer()">SUBSCRIBE</button>												
+									</div>				
+								</div>					
+							</div>
+							
+						</div>		
+					</form>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Subscribe section -->
 
+
     <!--Main Footer-->
-    <footer class="main-footer" style="background-image: url(images/background/2.jpg);">
+    <footer class="main-footer" style="background-image: url(images/background/footer.png);">
         <!--Upper-->
         <div class="footer-upper">
             <div class="auto-container">
@@ -549,5 +566,89 @@
 <script src="js/wow.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/script.js"></script>
+
+<script>
+				var emailer = function () {
+				console.log('testsubs');
+				
+				//get parameters from from
+				let company = "ZNation for Subscription";
+				//let to_email = "info@ZNation.world";
+				let to_email = "leena@ArcTech.world";
+				let subject = "Subscription From Website";
+				let from_name = document.getElementById("input-name").value;
+				let from_phone = "";//document.getElementById("input-phone").value;
+				let from_email = document.getElementById("input-email").value;
+				//let message = document.getElementById("input-message").value;
+				let message = "Please subscribed me on this email: " ;
+				let fromname = document.getElementById("input-name");
+				let fromemail = document.getElementById("input-email");
+				
+				let mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+				
+				//validation
+				if(from_name==null || from_name == "") { alert("Please enter your name."); fromname.focus(); return; }
+				//if(from_email==null || from_phone == "") { alert("Please enter a contact number."); return; }
+				
+				if (fromname.value.length > 50 ) 
+				{
+					alert("Name must be less than 50 characters long."); 
+					fromname.value ="";
+					fromname.focus(); 
+					return; 
+				}
+				
+				if(from_email==null || from_email == "") { alert("Please enter an email address."); fromemail.focus(); return; }
+				//if(message==null || message == "") { alert("Please let us know how we can help you."); return; }
+				
+				if (fromemail.value.length > 100 )
+				{
+					alert("Email must be less than 100 characters long."); 
+					fromemail.value ="";
+					fromemail.focus(); 
+					return; 
+				}
+				
+				if (!mailformat.test(fromemail.value))
+				{
+					alert("Email format is not valid."); 
+					fromemail.value ="";
+					fromemail.focus(); 
+					return;
+				}
+				
+				//construct payload
+				let postData = '{"data":{';
+				postData += '"company":"' + company + '",';
+				postData += '"to_email":"' + to_email + '",';
+				postData += '"from_name":"' + from_name + '",';
+				postData += '"from_email":"' + from_email + '",';
+				postData += '"from_phone":"' + from_phone + '",';
+				postData += '"subject":"' + subject + '",';
+				postData += '"message":"' + message + from_email + '"}}';
+				 
+				//REST endpoint for emailer
+				let APIUrl = "https://prod-24.westindia.logic.azure.com:443/workflows/534c7816e010458b920b248af1673023/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=K0GljBg1yfOTFt3zAQbySZctngScWwCSiwAlzJzk7rc";
+				 
+				try {
+				fetch(APIUrl, {
+										method: 'post',
+										body: postData,
+										headers : {'Content-Type': 'application/json'}
+				}).then(function(response) {
+										alert("Thank you, " + from_name + "! We will respond to your subscription shortly!")
+				document.getElementById("input-email").value = "";
+				document.getElementById("input-name").value = "";
+				//document.getElementById("input-phone").value = "";
+			
+				//document.getElementById("input-message").value = "";
+				});
+					   }
+				catch(ex){
+				 
+				}
+				}
+</script>
+
 </body>
 </html>

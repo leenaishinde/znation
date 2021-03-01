@@ -28,7 +28,7 @@
     <!-- Main Header-->
     <header class="main-header header-style-two">
         <!--Header Top-->
-      <!--  <div class="header-top">
+        <div class="header-top">
             <div class="auto-container">
                 <div class="inner-container clearfix">
                     <div class="top-left pull-left">
@@ -43,10 +43,10 @@
                             <a href="#"><span class="fa fa-sign-in"></span>Donor Login</a>
                             <a href="#">Non-Profit Login</a>
                         </div>-->
-                   <!-- </div>
+                    </div>
                 </div>
             </div>
-        </div>-->
+        </div>
         <!-- End Header Top -->
 
         <!-- Header Lower -->
@@ -55,7 +55,7 @@
                <div class="main-box clearfix">
                     <!--Logo Box-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo2.png" alt=""></a></div>
+                        <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
                     </div>
 
                     <!--Nav Outer-->
@@ -251,7 +251,7 @@
 
                         <!--Contact Form-->
                        <!-- <form method="post" action="sendemail.php" id="contact-form">-->
-						<!--<form id="contact" name="contact" method="post">
+						<form id="contact" name="contact" method="post">
                             <div class="row clearfix">
                                 <div class="col-md-6 col-sm-12 col-xs-12 form-group">
                                     <input type="text" name="username" id="input-name" placeholder="Name" required>
@@ -269,36 +269,11 @@
                                 
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group text-center">
                                    <!-- <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Now</button>-->
-								<!--	 <button class="theme-btn btn-style-one" id="submit" type="submit" name="submit" onClick="emailer()">Send Now</button>
+									 <button class="theme-btn btn-style-one" id="submit" type="submit" name="submit" onClick="emailer()">Send Now</button>
                                 </div>
                             </div>
-                        </form>-->
-						
-								<!-- Contact Form -->
-			
-						<form id="contact" name="contact">
-							<div class="row clearfix">
-								<div class="col-md-6 col-sm-12 col-xs-12 form-group">
-									<input id="input-name"  type="text" name="name" placeholder="Your Name" required />
-								</div>
-								<div class="col-md-6 col-sm-12 col-xs-12 form-group">
-									<input id="input-phone"  type="text" name="phone" placeholder="Contact number" required />
-								</div>
-								<div class="col-md-6 col-sm-12 col-xs-12 form-group">		 
-									<input id="input-email"  type="email" name="email" placeholder="Email Address" required />
-								</div>						
-								<div class="col-md-12 col-sm-12 col-xs-12 form-group">
-									<textarea id="input-message"  name="message" " placeholder="Message!" required ></textarea>
-								</div>
-								<!--<div class="col-md-12 col-sm-12 col-xs-12 form-group text-center">
-									<button class="theme-btn btn-style-one" id="submit" type="submit" name="submit" onClick="emailer()">Send Now</button>
-								</div>-->
-								<div class="col-md-12 col-sm-12 col-xs-12 form-group text-center">		
-									<!--<div onClick="emailer()" class="theme-btn btn-style-one">Send Now</div>	-->	
-									<button type="button" class="theme-btn btn-style-three" onclick="emailer()">SEND NOW</button>											
-								</div>					
-							</div>
-						</form>       
+                        </form>
+					
 					
 						  <!-- end form -->
 						<!--<div id="success" class="alert alert-success" role="alert" visible ="false"> Your message was sent successfully! We will be in touch as soon as we can. </div>
@@ -315,11 +290,8 @@
             <div class="map-column">
                 <div class="inner-column">
                     <div class="map-outer">
-					  <div class="row clearfix">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170636.91979148114!2d55.34781924390107!3d25.178970332598244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79aedfd68ae14c3!2sZalmeco%20Investment%20LLC!5e0!3m2!1sen!2sus!4v1614502375057!5m2!1sen!2sus" 
-					width="750" height="1050" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         <!--Map Canvas-->
-                     <!-- <div class="map-canvas"
+                        <div class="map-canvas"
                             data-zoom="12"
                             data-lat="25.19549"
                             data-lng="55.27033"
@@ -328,8 +300,7 @@
                             data-title="ZNation"
                             data-icon-path="images/icons/map-marker.png"
                             data-content="Office 2201, 22nd Floor <br> Boulevard Plaza Tower One <br>Downtown Dubai,<br> United Arab Emirates.<br><a href='mailto:Info@znation.world'>Info@znation.world</a>">
-                        </div>-->
-					</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,7 +309,7 @@
     <!-- End Contact Page Section -->
 
     <!--Main Footer-->
-    <footer class="main-footer" style="background-image: url(images/background/footer.png);">
+    <footer class="main-footer" style="background-image: url(images/background/2.jpg);">
         <!--Upper-->
         <div class="footer-upper">
             <div class="auto-container">
@@ -432,97 +403,63 @@
 
 
 <script>
-				var emailer = function () {
-				console.log('test');
-				
-				//get parameters from from
-				let company = "ZNation";
-				//let to_email = "info@ZNation.world";
-				let to_email = "leena@ArcTech.world";
-				let subject = "Inquiry From Website";
-				let from_name = document.getElementById("input-name").value;
-				let from_phone = document.getElementById("input-phone").value;
-				let from_email = document.getElementById("input-email").value;
-				let message = document.getElementById("input-message").value;
-				
-				let fromname = document.getElementById("input-name");
-				let fromphone = document.getElementById("input-phone");
-				let fromemail = document.getElementById("input-email");
-				let messagefield = document.getElementById("input-message");
-				
-				let mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-	            let phoneformat = /^[+]?\d+$/;
-				
-				//validation
-				if(from_name==null || from_name == "") { alert("Please enter your name."); fromname.focus(); return; }
-				if (fromname.value.length > 50 ) 
-				{
-					alert("Name must be less than 50 characters long."); 
-					fromname.value ="";
-					fromname.focus(); 
-					return; 
-				}
-				if(from_phone==null || from_phone == "") { alert("Please enter a contact number."); fromphone.focus(); return; }
-				
-								if (!phoneformat.test(fromphone.value))
-				{
-					alert("Phone format is not valid."); 
-					fromphone.value ="";
-					fromphone.focus(); 
-					return;
-				}				
-				
-				if(from_email==null || from_email == "") { alert("Please enter an email address."); fromemail.focus(); return; }	
+  var emailer = function () {
 
-				if (fromemail.value.length > 100 )
-				{
-					alert("Email must be less than 100 characters long."); 
-					fromemail.value ="";
-					fromemail.focus(); 
-					return; 
-				}
-				
-				if (!mailformat.test(fromemail.value))
-				{
-					alert("Email format is not valid."); 
-					fromemail.value ="";
-					fromemail.focus(); 
-					return;
-				}
-				
-				if(message==null || message == "") { alert("Please let us know how we can help you.");  messagefield.focus(); return; }
-				
-				//construct payload
-				let postData = '{"data":{';
-				postData += '"company":"' + company + '",';
-				postData += '"to_email":"' + to_email + '",';
-				postData += '"from_name":"' + from_name + '",';
-				postData += '"from_email":"' + from_email + '",';
-				postData += '"from_phone":"' + from_phone + '",';
-				postData += '"subject":"' + subject + '",';
-				postData += '"message":"' + message + '"}}';
-				 
-				//REST endpoint for emailer
-				let APIUrl = "https://prod-24.westindia.logic.azure.com:443/workflows/534c7816e010458b920b248af1673023/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=K0GljBg1yfOTFt3zAQbySZctngScWwCSiwAlzJzk7rc";
-				 
-				try {
-				fetch(APIUrl, {
-										method: 'post',
-										body: postData,
-										headers : {'Content-Type': 'application/json'}
-				}).then(function(response) {
-										alert("Thank you, " + from_name + "! We will respond to your inquiry shortly!")
-				document.getElementById("input-name").value = "";
-				document.getElementById("input-phone").value = "";
-				document.getElementById("input-email").value = "";
-				document.getElementById("input-message").value = "";
-				});
-					   }
-				catch(ex){
-				 
-				}
-				}
-				</script>
+console.log('test');
+  //get parameters from from
+  let company = "Znation";
+  let to_email = "leena@ArcTech.world"; //info@OnTheDart.com
+  let subject = "Inquiry From Website";
+  let from_name = document.getElementById("input-name").value;
+  let from_client_company_name = "";//document.getElementById("input-company-name").value;
+  let from_phone = "";//document.getElementById("input-phone").value;
+  let from_email = document.getElementById("input-email").value;
+  let message = document.getElementById("input-message").value; 
+   
+  //validation
+  if(from_name==null || from_name == "") { return; }
+  if(from_client_company_name==null || from_client_company_name == "") { return; }
+  if(from_email==null || from_email == "") { return; }
+  if(from_phone==null || from_phone == "") { return; } 
+  if(message==null || message == "") { return; } 
+    
+  //construct payload
+  let postData = '{"data":{';
+  postData += '"company":"' + company + '",';
+  postData += '"to_email":"' + to_email + '",';
+  postData += '"from_name":"' + from_name + '",';
+  postData += '"from_email":"' + from_email + '",';
+  postData += '"from_phone":"' + from_phone + '",';
+  postData += '"subject":"' + subject + '",';
+  postData += '"client_company_name":"' + from_client_company_name + '",';
+  postData += '"message":"' + message + '"}}';
+
+  // //REST endpoint for emailer
+  let APIUrl = "https://prod-24.westindia.logic.azure.com:443/workflows/534c7816e010458b920b248af1673023/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=K0GljBg1yfOTFt3zAQbySZctngScWwCSiwAlzJzk7rc";
+
+  fetch(APIUrl, {
+    method: 'post',
+    body: postData,
+    headers : {'Content-Type': 'application/json'}
+  })
+  .then(function(response) {
+    $('#contact').find('input:text, textarea').each(function () { 
+        $(this).val(''); 
+    });
+    $("#success").show();
+    
+    setTimeout(function(){ 
+      $("#success").hide(); 
+    }, 3000);
+  })
+  .catch((error) => {
+    $("#error").show();
+    setTimeout(function(){ 
+      $("#error").hide(); 
+    }, 3000);
+  });;
+}
+</script>
 
 </body>
 </html>
