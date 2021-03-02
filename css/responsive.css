@@ -369,7 +369,8 @@
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		z-index:20;
-		border:1px solid #fcc005;
+		/*border:1px solid #fcc005;*/
+		border:1px solid #31a0cf;
 		float:none;
 		margin:0px 0px 0px 0px;
 		-webkit-border-radius:0px;
@@ -377,7 +378,8 @@
 		-ms-border-radius:0px;
 		-o-border-radius:0px;
 		border-radius:0px;
-		background:#fcc005;
+		/*background:#fcc005;*/
+		background:#31a0cf;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
